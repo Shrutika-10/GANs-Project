@@ -1,0 +1,12 @@
+@"
+Dataset/
+gan_checkpoints/
+gan_outputs/
+*.crdownload
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pth
+*.pt
+"@ | Set-Content .gitignore
